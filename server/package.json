@@ -1,0 +1,30 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "A Basic Todo List App Written with NodeJS and Express",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nika-iru/todo-list-app.git"
+  },
+  "keywords": [
+    "lab7"
+  ],
+  "author": "Xavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nika-iru/todo-list-app/issues"
+  },
+  "homepage": "https://github.com/nika-iru/todo-list-app#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
