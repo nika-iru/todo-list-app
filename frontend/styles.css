@@ -1,0 +1,170 @@
+ /* styles here */
+ body {
+    background-color: #f0f0f0;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .container {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px 20px 30px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+
+  #login-redirect {
+    font-size: medium;
+    padding: 10px 0px 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .center {
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .error {
+    visibility: hidden;
+    color: red;
+    font-size: small;
+    text-align: right;
+  }
+
+  .inputbox {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    font-size: medium;
+    text-indent: 10px;
+    padding: 10px 0px 10px 0px;
+    box-shadow: none;
+    border-radius: 5px;
+    border: #ccc solid 1px;
+  }
+
+  #login {
+    font-size: medium;
+    padding: 10px 0px 10px 0px;
+    box-shadow: none;
+    background-color: #007bff;
+    padding: 10px 0px 10px 0px;
+    border: #ccc solid 1px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  #login:hover {
+    background-color: #0056b3;
+  }
+
+  .errorborder {
+    border: red 1px solid;
+  }
+
+  #edit {
+    font-size: medium;
+    padding: 10px 0px 10px 0px;
+    box-shadow: none;
+    background-color: #f2cd52;
+    padding: 10px 0px 10px 0px;
+    border: #ccc solid 1px;
+    border-radius: 5px;
+    color: black;
+  }
+
+  #edit:hover {
+    background-color: #e4a13d;
+  }
+  
+  
+  .todo {
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border-radius: 5px;
+    border: #ccc solid 1px;
+  }
+
+  .interactions {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .crud {
+    font-size: medium;
+    padding: 10px 0px 10px 0px;
+    box-shadow: none;
+    background-color: #ffd573;
+    padding: 10px 0px 10px 0px;
+    border: #cd7121 solid 2px;
+    border-radius: 5px;
+    color: black;
+    width: 80px;
+  }
+
+  .crud:hover {
+    background-color: #f99a5a;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #root {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  #webpage {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+  }
+
+  #main-page {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .top_bar {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 50px;
+  }

@@ -1,15 +1,15 @@
 import express from "express";
-const router = express.Router();
+const userRouter = express.Router();
 import User from "../models/user.js";
 
-router.post("/users", async (req, res) => {
+userRouter.post("/users", async (req, res) => {
   const user = req.body;
 
   const result = await User.create(user);
   return res.status(201).json(result);
 });
 
-router.get("/users/:id", async (req, res) => {
+userRouter.get("/users/:id", async (req, res) => {
   const id = req.params.id;
 
   let errorMessage = null;
@@ -28,4 +28,4 @@ router.get("/users/:id", async (req, res) => {
   res.status(404).json({ error: errorMessage });
 });
 
-export default router;
+export default userRouter;

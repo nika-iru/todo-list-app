@@ -5,10 +5,7 @@ import Todo from "../models/todos.js";
 
 todosRouter.get("/todos/:userId", async (req, res) => {
   const userId = req.params.userId;
-  const todoId = req.query.id; // extracts the id from the query string of the URL (like ?id=TODO_ID)
-
-  // TODO: read the todo item, of the user with the given todo id. 
-  // If the todoId is not defined (meaning no query variable) return all todo items for the user instead.
+  const todoId = req.query.id;
 
   let errorMessage = null;
 

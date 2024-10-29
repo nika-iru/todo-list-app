@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="center">
+        <form class="container">
+            <h1>Login</h1>
+            <div class="inputbox">
+                <input type="email" id="email" class="input" placeholder="Email">
+                <label id="email_error" for="email" class="error">Required</label>
+            </div>
+            <div class="inputbox">
+                <input type="password" id="pass" class="input" placeholder="Password">
+                <label id="pass_error" for="pass" class="error">Required</label>
+            </div>
+            <div class="inputbox">
+                <button id="login">Login</button>
+            </div>
+          </form>
+        
+    </div>
+ 
+    <!--
+    <script>
+      // javascript code here
+      const fname = document.getElementById("fname");
+      const lname = document.getElementById("lname");
+      const email = document.getElementById("email");
+      const pass = document.getElementById("pass");
+      const cpass = document.getElementById("cpass");
+      const reg = document.getElementById("login");
+
+      const ferror = document.getElementById("fname_error");
+      const lerror = document.getElementById("lname_error");
+      const eerror = document.getElementById("email_error");
+      const perror = document.getElementById("pass_error");
+      const cerror = document.getElementById("cpass_error");
+
+      email.addEventListener("change", (event) => {
+        if (email.value == "") {
+            email.style.borderColor = "red";
+            eerror.style.visibility = "visible";
+            reg.setAttribute("disabled","");
+        }
+        else {
+            email.style.borderColor = "#ccc";
+            eerror.style.visibility = "hidden";
+            enableButton();
+        }
+      });
+
+      pass.addEventListener("change", (event) => {
+        if (pass.value == "") {
+            pass.style.borderColor = "red";
+            perror.style.visibility = "visible";
+            reg.setAttribute("disabled","");
+        }
+        else {
+            pass.style.borderColor = "#ccc";
+            perror.style.visibility = "hidden";
+            enableButton();
+        }
+      });
+
+      function enableButton() {
+        if (email.value != "" && pass.value != "") {
+            reg.removeAttribute("disabled");
+        }
+    } -->
+
+    </script>
+  </body>
+</html>
